@@ -41,24 +41,22 @@ function getOrderedVowels_of($str = '') {
 $first = getTimezonePeru() == -18000;
 
 function second_step($valor){
-   if (in_array($valor,$GLOBALS["second"])) {
+   if (in_array($valor,$GLOBALS['South_America'])) {
     return true;
    }else{
    	return false;
    }
 }
 function fourth_step($valor){
-   if (in_array($valor,$GLOBALS["fourth"])) {
+   if (in_array($valor,$GLOBALS['Timezone_EQL_Lima'])) {
     return true;
    }else{
    	return false;
    }
 } 
-$GLOBALS["second"] = GetAllCitysFrom("South_America");
-$second = array_map('second_step',$GLOBALS['South_America']);
+$second = array_map('second_step',GetAllCitysFrom("South_America") );
 $third = getMinorTimezoneFrom("South_America") == -7200;
-$GLOBALS["fourth"] = getCitysEqualTimezone_At("Lima");
-$fourth = array_map('fourth_step',$GLOBALS['Timezone_EQL_Lima']);
+$fourth = array_map('fourth_step',getCitysEqualTimezone_At("Lima"));
 $five = getTenDecimalDigit_of(pi()) == 8;
 $six = getOrderedVowels_of("el zorro marron salta sobre un perro perezoso") == "eooaoaaoeueoeeoo";
 
