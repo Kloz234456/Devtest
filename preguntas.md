@@ -7,4 +7,4 @@
 - 7) que opinas del trabajo remoto, tienes experiencia?
 - 8) si te dan una instruccion que no comprendes que haces?
 - 9) que opinas de las "horas extras"
-- 10) cuentame cual es la cosa mas dificil que has resuleto.
+- 10) cuentame cual es la cosa mas dificil que has resuelto.
