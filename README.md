@@ -15,3 +15,5 @@ Instrucciones:
 4) Resuelve el cuestionario llamado : preguntas.md
 5) Pushea en cualquier repositorio publico enviando la URL del repositorio a plataforma@geosatelital.com
 6) Te avisamos si cumples o no con nuestras necesidades (puedes preguntar por feedback!)
+
+pd: si tienes algun problema en el mail puedes indicarmelo o en el repo :)
