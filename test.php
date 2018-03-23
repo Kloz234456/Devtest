@@ -7,6 +7,7 @@ $GLOBALS['Timezone_EQL_Lima'] = array("Eirunepe", "Rio_Branco", "Atikokan", "Win
 function getTimezonePeru() {
   $answer = -18000;
   return $answer;
+  
 }
 
 function GetAllCitysFrom($continent = '') {
